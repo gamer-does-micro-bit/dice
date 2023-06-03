@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="|Y@((H-mjWrs=80I$tCk">nummer</variable></variables><block type="device_button_event" id="Vqan!g`m-QZu@ST;6-RD" x="0" y="0"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="variables_set" id="Mh!V1;EuHD!+!or9DZc/"><field name="VAR" id="|Y@((H-mjWrs=80I$tCk">nummer</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="c/y-unhVttPO*OwYLc2_"><value name="min"><shadow type="math_number" id="ssW}s3B~uUU3P`:{er9o"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="B2gUW.TbE;P`nkprkHja"><field name="NUM">6</field></shadow></value></block></value><next><block type="device_show_leds" id="HxO:l!j_|i4J|y=%|JLq"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_print_message" id=";~wCY*qx}3Irfm?uK,+g"><value name="text"><shadow type="text"><field name="TEXT">Hello!</field></shadow><block type="variables_get" id="k~O[-?Xp(ombZ$E)DCRO"><field name="VAR" id="|Y@((H-mjWrs=80I$tCk">nummer</field></block></value></block></next></block></next></block></statement></block></xml>
